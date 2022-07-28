@@ -1,6 +1,8 @@
 apiVersion: "1"
-version: "1"
+version: "2"
 id: "cloudbees-aswin-dev-controller"
 description: "CloudBees CI configuration bundle for the cloudbees-aswin dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-aswin/dev-controller"
 parent: "base"
+rbac:
+  - "rbac.yaml"
